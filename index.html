@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="calculator">
-      <div class="display">
-        <input type="text" placeholder="0" id="input" disabled />
-      </div>
-      <div class="buttons">
-        <!-- Full Erase -->
-        <button value="AC" id="clear" class="operation-button" >AC</button>
-        <!-- Erase Single Value -->
-        <button value="DEL" id="erase" class="operation-button" >DEL</button>
-        <button value="/" class="operation-button button">/</button>
-        <button value="*" class="operation-button button" >*</button>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
-        <button value="7" class="digit-button button" />7</button>
-        <button value="8" class="digit-button button" />8</button>
-        <button value="9" class="digit-button button" />9</button>
-        <button value="-" class="operation-button button" />-</button>
+    <!-- link file css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contanier">
+        <nav>
+            <a href="#" class="logo">FOCUS</a>
+            <ul>
+                <li class="active"><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
 
-        <button value="6" class="digit-button button" />6</button>
-        <button value="5" class="digit-button button" />5</button>
-        <button value="4" class="digit-button button" />4</button>
-        <button value="+" class="operation-button button" />+</button>
-
-        <button value="1" class="digit-button button" />1</button>
-        <button value="2" class="digit-button button" />2</button>
-        <button value="3" class="digit-button button" />3</button>
-
-        <button value="=" id="equal" class="operation-button" />=</button>
-        <button value="0" class="digit-button button" id="zero" />0</button>
-        <button value="." class="digit-button button" />.</button>
+        <div class="content">
+            <h1>Good Book <br> has no ending</h1>
+            <p>A good book captivates its readers with compelling storytelling, relatable characters, and thought-provoking themes, creating an immersive experience that transcends the pages.<br>It has the power to inspire, evoke emotions, and leave a lasting impact, inviting readers into a world where imagination meets profound insights </p>
+            <a href="#" class="btn">Let's Work together</a>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+        </div>
     </div>
-    <!-- Script -->
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
